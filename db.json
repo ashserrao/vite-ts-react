@@ -1,0 +1,10 @@
+{
+  "allowedUrls": [
+    "chrome://",
+    "edge://",
+    "chrome-extension://",
+    "https://www.google.com/",
+    "https://chatgpt.com/",
+    "https://github.com/"
+  ]
+}

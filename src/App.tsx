@@ -1,7 +1,10 @@
-import './App.css'
-import IDCaptureComponent from './components/id-capture-form'
-// import Dashboard from './components/dashboard'
-// import StockListPage from './components/data_table'
+import "./App.css";
+// import RDLinksPage from "./components/rnd-components";
+import WorkExperience from "./components/work-experience";
+// import ComingSoon from "./components/coming-soon";
+// import IDCaptureComponent from './components/id-capture-form'
+// import Dashboard from "./components/dashboard";
+// import StockListPage from "./components/data_table";
 // import FloatActionButton from './components/float-action-btn'
 // import Cryptodashboard from './components/crypto-dashboard'
 // import RegistrationForm from './components/registration-form'
@@ -12,24 +15,26 @@ import IDCaptureComponent from './components/id-capture-form'
 // import Demo from './components/carsol-card'
 
 function App() {
-
   return (
     <>
-      {/* <Dashboard/> */}
-      {/* <StockListPage/> */}
+      {/* <Dashboard /> */}
+      {/* <StockListPage /> */}
       {/* <FloatActionButton /> */}
       {/* <Cryptodashboard/> */}
-      <IDCaptureComponent/>
+      {/* <IDCaptureComponent/> */}
       {/* <RegistrationForm/> */}
       {/* <TechnicalErrorPage/> */}
       {/* <ExamRestrictionPage/> */}
       {/* <FullscreenDialog/> */}
       {/* <QRCodeGenerator/> */}
       {/* <Demo/> */}
+      {/* <ComingSoon /> */}
+      {/* <RDLinksPage /> */}
+      <WorkExperience />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
 
 // https://medium.com/@rajdeepmallick999/vite-firebase-how-to-deploy-react-app-5e5090730147
